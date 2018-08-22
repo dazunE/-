@@ -1,0 +1,80 @@
+/*!
+Theme Name: CeylonBlog
+Theme URI: https://ceylon.blog
+Author: Dasun Edirisinghe
+Author URI: https://dasun.blog
+Description: A super clean , super fast news theme
+Version: 1.0.3
+License: GNU General Public License v3 or later
+License URI: LICENSE
+Text Domain: ceylon-blog
+Tags: translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+CSS normalization based in part on normalize.css by
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Accessibility
+# Layout
+# Typography
+# Elements
+# Links
+# Forms
+# Header
+  # Main navigation menu
+# Content navigation
+# Footer
+# Infinite scroll
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "scss/normalize";
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "scss/accessibility";
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+@import "scss/layouts";
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "scss/typography";
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "scss/elements";
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+@import "scss/links";
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "scss/forms";
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@import "scss/header";
+/*--------------------------------------------------------------
+## Main navigation menu
+--------------------------------------------------------------*/
+@import "scss/main-nav";
+/*--------------------------------------------------------------
+  # Content navigation
+--------------------------------------------------------------*/
+@import "scss/content-nav";
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "scss/footer";
+/*--------------------------------------------------------------
+# Misc
+--------------------------------------------------------------*/
+@import "scss/msic";

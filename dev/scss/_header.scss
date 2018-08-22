@@ -1,0 +1,46 @@
+
+.site-header {
+
+   .site-branding{
+    border-bottom: 1px solid #e5e5e5;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+     .site-description{
+       display: none;
+     }
+   }
+}
+
+.header-image {
+  margin: 0 auto; }
+
+.header-image img {
+  display: block;
+  margin: 0 auto; }
+
+.custom-logo-link {
+  display: inline-block;
+  margin: 0 auto 1em; }
+
+
+
+.site-title {
+  margin: 0 1em;
+  font-family: var(--highlight-font-family);
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #333332; }
+
+.site-title a {
+  text-decoration: none;
+  color: inherit; }
+
+.site-description {
+  margin: .4375em 0 0;
+  font-family: var(--highlight-font-family);
+  font-size: 17px;
+  font-weight: inherit;
+  line-height: 1.4;
+  word-wrap: break-word;
+  color: #757575; }

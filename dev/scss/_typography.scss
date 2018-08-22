@@ -1,0 +1,58 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: var(--global-font-color);
+  font-family: var(--global-font-family);
+  font-size: var(--global-font-size) px;
+  font-size: calc(var(--global-font-size) / 16) rem;
+  line-height: var(--global-font-line-height); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--highlight-font-family);
+  color: #32373c;
+  clear: both; }
+
+.entry-header h1.entry-title {
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin: 1em 0; }
+
+dfn, cite, em, i {
+  font-style: italic; }
+
+blockquote {
+  margin: 0 1.5em; }
+
+address {
+  margin: 0 0 1.5em; }
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 12.8px;
+  font-size: .8em; }
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+big {
+  font-size: 125%; }

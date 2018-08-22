@@ -1,0 +1,30 @@
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  border-bottom: 1px solid #111;
+  margin: 0 auto 2em;
+  max-width: 720px;
+  overflow: hidden;
+  padding-bottom: 2em;
+  font-family: var(--highlight-font-family); }
+
+.nav-links {
+  display: flex; }
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  width: 50%;
+  flex: 1 0 50%; }
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  text-align: end;
+  flex: 1 0 50%; }
+
+.post-navigation-sub span {
+  color: var(--global-font-color);
+  text-decoration: none;
+  display: inline-block; }
