@@ -1,6 +1,4 @@
-<img align="right" width="90" height="90"
-     src="https://avatars1.githubusercontent.com/u/38340689"
-     title="CeylonBlog logo by Morten Rand-Hendriksen">
+
 # CeylonBlog: WordPress Theme based on wp rig
 [![License: GPL](https://img.shields.io/aur/license/yaourt.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ![CeylonBlog version 1.0.3](https://img.shields.io/badge/version-1.0.0-blue.svg)
