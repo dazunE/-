@@ -957,25 +957,11 @@ textarea {
 	padding-right: 15px;
 	padding-left: 15px; }
 
-@media screen and (min-width: 60em) {
-	.has-sidebar .site {
-		margin: 0 1em;
-		display: grid;
-		grid-template-columns: 3fr 1fr;
-		grid-gap: 2rem;
-		-webkit-box-pack: center;
-		    -ms-flex-pack: center;
-		        justify-content: center; }
-	.site-header {
-		grid-column: span 2; }
-	.site-main {
-		grid-column: 1;
-		min-width: 0; }
-	.primary-sidebar {
-		grid-column: 2;
-		min-width: 0; }
-	.site-footer {
-		grid-column: span 2; } }
+.col-20 {
+	-ms-flex: 0 0 20%;
+	-webkit-box-flex: 0;
+	        flex: 0 0 20%;
+	max-width: 20%; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -1194,12 +1180,24 @@ textarea {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.site-header .site-branding {
-	border-bottom: 1px solid #e5e5e5;
-	padding-bottom: 1rem;
-	padding-top: 1rem; }
-	.site-header .site-branding .site-description {
-		display: none; }
+.site-header {
+	margin: 0 auto;
+	max-width: 75rem;
+	width: 100%; }
+	.site-header .top-bar {
+		background-color: #343a40;
+		border-bottom: 1px solid #e5e5e5; }
+		.site-header .top-bar .site-branding {
+			padding-bottom: 1rem;
+			padding-top: 1rem; }
+			.site-header .top-bar .site-branding .site-title {
+				font-family: 'Playfair Display', sans-serif;
+				font-size: 36px;
+				font-weight: bold;
+				line-height: 1.2;
+				color: #FFFFFF; }
+			.site-header .top-bar .site-branding .site-description {
+				display: none; }
 
 .header-image {
 	margin: 0 auto; }
@@ -1212,26 +1210,9 @@ textarea {
 	display: inline-block;
 	margin: 0 auto 1em; }
 
-.site-title {
-	margin: 0 1em;
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 38px;
-	font-weight: bold;
-	line-height: 1.2;
-	color: #333332; }
-
 .site-title a {
 	text-decoration: none;
 	color: inherit; }
-
-.site-description {
-	margin: .4375em 0 0;
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 17px;
-	font-weight: inherit;
-	line-height: 1.4;
-	word-wrap: break-word;
-	color: #757575; }
 
 /*--------------------------------------------------------------
 ## Main navigation menu

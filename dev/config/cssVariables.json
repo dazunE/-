@@ -1,6 +1,7 @@
 {
 	"variables": {
 		"global-font-color": "#343a40",
+		"global-light-background" : "#FFFFFF",
 		"global-font-family": "'Lato', serif",
 		"global-font-size": "20",
 		"global-font-line-height": "1.4",

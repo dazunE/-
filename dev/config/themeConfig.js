@@ -9,7 +9,7 @@ module.exports = {
 	dev: {
 		browserSync: {
 			live: true,
-			proxyURL: 'ceylonblog.dev',
+			proxyURL: 'themes.dev',
 			bypassPort: '3001'
 		},
 		browserslist: [ // See https://github.com/browserslist/browserslist
